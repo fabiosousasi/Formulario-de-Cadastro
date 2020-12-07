@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+
+</head>
+<body>
+    <h2>Criar Conta</h2>
+    <form action="destino.html" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" size="40" maxlength="100" placeholder="ex: Fábio Sousa">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" size="40" placeholder="ex: fabio@hotmail.com">
+
+        <label for="celular">Celular:</label>
+        <input type="tel" name="celular" id="celular" maxlength="11" placeholder="ex: (DDD)123456789">
+
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data">
+
+        <label for="senha">Crie uma Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <label for="confirmacao">Confirme a Senha:</label>
+        <input type="password" name="confirmacao" id="confirmacao">
+
+        <input type="submit" value="Submit" id="submit">
+
+    </form>
+
+    <footer>
+        <p>Desenvolvedor Fábio Sousa</p>
+    </footer>
+
+</body>
+</html>
